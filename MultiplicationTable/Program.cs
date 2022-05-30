@@ -14,7 +14,7 @@ namespace MultiplicationTable
             
             while (1 == 1)
             {
-                Console.WriteLine($"Введите целое число в диапазоне от {bytNumberMin} по {ulonNumberMax}. Для выхода наберите: Exit."); ;
+                Console.WriteLine($"Enter an integer between {bytNumberMin} and {ulonNumberMax}. To exit, enter: Exit."); ;
                 strNumber = Console.ReadLine();
 
                 if (strNumber == "Exit" || strNumber == "exit")
@@ -27,7 +27,7 @@ namespace MultiplicationTable
 
                 if (booError == false || ulonNumber < bytNumberMin || ulonNumber > ulonNumberMax)
                 {
-                    Console.WriteLine("Не корректный ввод данных! Повторите попытку.");
+                    Console.WriteLine("Incorrect data entered! Try again.");
                     Console.WriteLine("");
                     continue;
                 }

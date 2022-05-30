@@ -10,7 +10,7 @@ namespace NameOfTheDay
 
             while (1 == 1) //Исключительно для удобства.
             {
-                Console.WriteLine("Введите номер дня недели (1 - понедельник, 2 - вторник и т.д.). Для выхода наберите: Exit.");
+                Console.WriteLine("Enter the number of the day of the week (1 - Monday, 2 - Tuesday ...). To exit, enter: Exit.");
                 strDayNumber = Console.ReadLine();
                 strDayNumber = F_strNameOfTheDay(strDayNumber); //Использую туже переменную для уменьшения их количества (память экономлю:)).
 
@@ -49,7 +49,7 @@ namespace NameOfTheDay
                 case "exit":
                     return "Exit";
             }
-            return "Не корректный ввод данных! Повторите попытку.";
+            return "Incorrect data entered! Try again.";
         }
     }
 }
