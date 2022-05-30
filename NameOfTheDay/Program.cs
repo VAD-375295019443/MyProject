@@ -14,7 +14,7 @@ namespace NameOfTheDay
                 strDayNumber = Console.ReadLine();
                 strDayNumber = F_strNameOfTheDay(strDayNumber); //Использую туже переменную для уменьшения их количества (память экономлю:)).
 
-                if (strDayNumber == "Exit")
+                if (strDayNumber == "Exit" || strDayNumber == "exit")
                 {
                     Console.WriteLine("Goodbye.");
                     break;
