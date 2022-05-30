@@ -9,7 +9,7 @@ namespace MultiplicationTable
             string? strNumber;
             byte bytNumberMin = 1;
             ulong ulonNumberMax = ulong.MaxValue / 10;
-            ulong ulonNumber;
+            ulong ulonNumber=66666;
             bool booError;
 
             while (1 == 1)
