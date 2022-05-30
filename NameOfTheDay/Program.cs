@@ -19,11 +19,9 @@ namespace NameOfTheDay
                     Console.WriteLine("Goodbye.");
                     break;
                 }
-                else
-                {
-                    Console.WriteLine(strDayNumber);
-                    Console.WriteLine("");
-                }
+                
+                Console.WriteLine(strDayNumber);
+                Console.WriteLine("");
             }
         }
         
