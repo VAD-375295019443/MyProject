@@ -11,7 +11,7 @@ namespace MultiplicationTable
             ulong ulonNumberMax = ulong.MaxValue / 10;
             ulong ulonNumber;
             bool booError;
-            //орлоролролролроролролролролррлрол
+            
             while (1 == 1)
             {
                 Console.WriteLine($"Введите целое число в диапазоне от {bytNumberMin} по {ulonNumberMax}. Для выхода наберите: Exit."); ;
