@@ -48,8 +48,9 @@ namespace NameOfTheDay
                     return "Exit";
                 case "exit":
                     return "Exit";
-            }
-            return "Incorrect data entered! Try again.";
+                default:
+                    return "Incorrect data entered! Try again.";
+           }
         }
     }
 }
